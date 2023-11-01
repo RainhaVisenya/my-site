@@ -9,7 +9,7 @@
         v-model="model"
         flat
         stretch
-        toggle-color="yellow"
+        toggle-color="primary"
         :options="options"
       />
     </q-toolbar>

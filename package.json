@@ -13,12 +13,14 @@
     "@nuxt/devtools": "latest",
     "nuxt": "^3.8.0",
     "nuxt-quasar-ui": "^2.0.6",
+    "sass": "^1.69.5",
     "vue": "^3.3.7",
     "vue-router": "^4.2.5"
   },
   "dependencies": {
     "@quasar/extras": "^1.16.7",
     "quasar": "^2.13.0",
-    "stylus": "^0.60.0"
+    "stylus": "^0.60.0",
+    "vuex": "4"
   }
 }

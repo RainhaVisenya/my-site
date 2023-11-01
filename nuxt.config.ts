@@ -3,6 +3,7 @@ import materialIconsRound from 'quasar/icon-set/svg-material-icons-round'
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  devtools: { enabled: true },
   devServer: {
     port: 8000 // por padrão: 3000
   },
@@ -10,6 +11,7 @@ export default defineNuxtConfig({
     'nuxt-quasar-ui'
   ],
   quasar: {
+    sassVariables: '~/assets/css/quasar.variables.sass',
     plugins: [
       'BottomSheet',
       'Dialog',
